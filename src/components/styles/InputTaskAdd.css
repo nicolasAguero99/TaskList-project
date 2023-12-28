@@ -218,7 +218,7 @@ main .card-task div .task-complete:after {
   content: "";
   width: 20px;
   height: 20px;
-  background-image: url("../src/assets/check-icon.svg");
+  background-image: url("/check-icon.svg");
   background-position: center;
   background-size: contain;
   position: absolute;

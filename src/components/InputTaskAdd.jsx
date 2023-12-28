@@ -81,7 +81,7 @@ let InputTaskAdd = () => {
 
           <p>${document.querySelector("#input-subtitle").value}</p>
           <div class="options-task">
-          <img src="../src/assets/option-icon.svg"
+          <img src="/option-icon.svg"
           onclick="
           event.target.parentElement.lastElementChild.style.display == 'flex' ? 
           event.target.parentElement.lastElementChild.style.display = 'none' :

@@ -79,7 +79,7 @@ let CardTask = (props) => {
               }
             }}
           >
-          <img src="../src/assets/option-icon.svg" 
+          <img src="/option-icon.svg" 
             onClick={(event) => {
               (event.target.parentElement.lastElementChild.style.display == 'flex' ? 
               event.target.parentElement.lastElementChild.style.display = 'none' :

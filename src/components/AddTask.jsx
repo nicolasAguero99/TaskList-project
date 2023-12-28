@@ -147,7 +147,7 @@ const jsConfetti = new JSConfetti();
           event.target.parentNode.parentNode.parentNode.parentNode.childNodes[1].innerHTML = event.target.parentNode.parentNode.parentNode.parentNode.childNodes[1].firstElementChild.value;
 
           event.target.parentNode.previousElementSibling.parentNode.innerHTML = event.target.parentNode.previousElementSibling.value;
-      }'><img src='../src/assets/send-icon.svg' /></button>`;
+      }'><img src='/send-icon.svg' /></button>`;
 
       
       event.target.parentNode.style.display = "none";
@@ -203,7 +203,7 @@ const jsConfetti = new JSConfetti();
         ) : (
           <div id="container-no-task">
             <img
-              src="../src/assets/done-tasks-ilustration.svg"
+              src="/done-tasks-ilustration.svg"
               alt="ilustration"
             />
             <h2>You don't have tasks!</h2>
